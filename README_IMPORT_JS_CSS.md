@@ -13,6 +13,7 @@ npm install
 npm run dev
 ```
 Если Vite/Tailwind не стартуют, проверь версии Node и наличие .env.
+<<<<<<< HEAD
 
 ## Font Awesome
 Иконки заменены на Font Awesome.
@@ -21,3 +22,5 @@ npm run dev
 npm install @fortawesome/fontawesome-free
 npm run dev
 ```
+=======
+>>>>>>> a9b74498da5d020f2d5df1ded98aee144772679b
