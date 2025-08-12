@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+/* Auto-imported from id project */
+import '../../public/mycss/dataTables.dataTables.css';
+import '../../public/mycss/datatables.min.css';
+import '../../public/mycss/fixedColumns.dataTables.css';
+import '../../public/mycss/fixedColumns.dataTables.min.css';
+import '../../public/mycss/fixedColumns.foundation.min.css';
+import '../../public/mycss/mycss.css';
+import '../../public/mycss/toastr.min.css';

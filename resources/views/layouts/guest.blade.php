@@ -17,6 +17,7 @@
 
     <!-- Styles -->
     @livewireStyles
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" integrity="sha256-6AvFCKqY9uGWe7eLUeHWVSRK3Wm5hJrSZdT6Z4rHqhQ=" crossorigin="anonymous">
 </head>
 
 <body>

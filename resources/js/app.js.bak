@@ -1,4 +1,3 @@
-import '../css/app.css';
 import './bootstrap';
 
 // Import the DataTable initialization script
@@ -88,3 +87,6 @@ $(function(){
      
 });
 
+
+// Auto-imported from id project
+import '../../public/myjs/jj.js';

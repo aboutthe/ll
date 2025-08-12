@@ -3,12 +3,12 @@
 
 @php
     $tiles = $tiles ?? [
-        ['title' => __('dashboard.sales'),     'value' => '1 254',   'icon' => 'shopping-cart', 'color' => 'bg-blue-600',    'href' => url('/')],
-        ['title' => __('dashboard.customers'), 'value' => '342',     'icon' => 'users',         'color' => 'bg-emerald-600', 'href' => url('/')],
-        ['title' => __('dashboard.orders'),    'value' => '58',      'icon' => 'clipboard-list','color' => 'bg-amber-600',   'href' => url('/')],
-        ['title' => __('dashboard.inventory'), 'value' => '12 543',  'icon' => 'boxes',         'color' => 'bg-violet-600',  'href' => url('/')],
-        ['title' => __('dashboard.invoices'),  'value' => '37',      'icon' => 'file-invoice',     'color' => 'bg-cyan-600',    'href' => url('/')],
-        ['title' => __('dashboard.payments'),  'value' => '€87 230', 'icon' => 'credit-card',   'color' => 'bg-rose-600',    'href' => url('/')],
+        ['title' => __('dashboard.sales'),     'value' => '1 254',   'icon' => 'fa-cart-shopping', 'color' => 'bg-blue-600',    'href' => url('/')],
+        ['title' => __('dashboard.customers'), 'value' => '342',     'icon' => 'fa-users',         'color' => 'bg-emerald-600', 'href' => url('/')],
+        ['title' => __('dashboard.orders'),    'value' => '58',      'icon' => 'fa-clipboard-list','color' => 'bg-amber-600',   'href' => url('/')],
+        ['title' => __('dashboard.inventory'), 'value' => '12 543',  'icon' => 'fa-boxes-stacked',         'color' => 'bg-violet-600',  'href' => url('/')],
+        ['title' => __('dashboard.invoices'),  'value' => '37',      'icon' => 'fa-file-invoice',     'color' => 'bg-cyan-600',    'href' => url('/')],
+        ['title' => __('dashboard.payments'),  'value' => '€87 230', 'icon' => 'fa-credit-card',   'color' => 'bg-rose-600',    'href' => url('/')],
     ];
 @endphp
 
@@ -29,8 +29,8 @@
                        class="group rounded-2xl p-5 text-white shadow hover:shadow-lg transition ring-1 ring-black/5 {{ $t['color'] }}">
                         <div class="flex items-start justify-between">
                             {{-- Иконка подставится на клиенте через JS --}}
-                            <div class="opacity-100 text-white [&>svg]:w-6 [&>svg]:h-6">
-                                <span data-icon="{{ $t['icon'] }}"></span>
+                            <div class="opacity-100 text-white text-2xl">
+                                <i class="fa-solid {{ $t['icon'] }}"></i>
                             </div>
                             <span class="inline-flex items-center rounded-full bg-white/20 px-2 py-0.5 text-xs font-medium">
                                 {{ __('dashboard.link') }}
