@@ -1,0 +1,7 @@
+Laravel root detected: /mnt/data/project_uuid_patch
+Patched users migration to use uuid: /mnt/data/project_uuid_patch/database/migrations/0001_01_01_000000_create_users_table.php
+Patched User model for UUID: /mnt/data/project_uuid_patch/app/Models/User.php
+Patched migration for user_id uuid: 0001_01_01_000000_create_users_table.php
+Patched migration for user_id uuid: 2025_08_04_073400_create_personal_access_tokens_table.php
+Patched migration for user_id uuid: 2025_08_10_073348_create_team_user_table.php
+Patched UserFactory to generate UUID: /mnt/data/project_uuid_patch/database/factories/UserFactory.php

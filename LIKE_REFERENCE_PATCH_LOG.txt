@@ -1,0 +1,9 @@
+Reference UUID style: {
+  "users_id_type": "uuid",
+  "uses_binary": false,
+  "casts_binary": false,
+  "morphs_style": "uuidMorphs"
+}
+
+Patches:
+- Kept UUID style as-is (uuid columns).
